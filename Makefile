@@ -1,0 +1,14 @@
+install:
+	pip install --upgrade pip && pip install -r requirements.txt
+	
+
+lint:
+	pylint --disable=R,C document_load.py
+	
+
+format:
+	black *.py
+	
+
+test:
+	python -m pytest -vv --cov=document_load test_document_load.py

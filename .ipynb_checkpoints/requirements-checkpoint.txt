@@ -1,0 +1,7 @@
+pytest
+click
+pylint
+pytest-cov
+black
+flask
+langchain
