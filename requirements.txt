@@ -5,3 +5,8 @@ pytest-cov
 black
 flask
 langchain
+pypdf
+yt_dlp
+pydub
+ffprobe
+ffmpeg
